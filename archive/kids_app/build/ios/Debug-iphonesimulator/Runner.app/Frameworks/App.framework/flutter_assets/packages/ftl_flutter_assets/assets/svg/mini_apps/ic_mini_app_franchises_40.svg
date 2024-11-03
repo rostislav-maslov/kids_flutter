@@ -1,0 +1,8 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="40" height="40" rx="8" fill="#0AA0E0"/>
+<circle opacity="0.8" r="5" transform="matrix(-1 0 0 1 20 10)" fill="#F6F8FB"/>
+<circle opacity="0.7" r="5" transform="matrix(-1 0 0 1 29 18)" fill="#F6F8FB"/>
+<circle opacity="0.6" r="5" transform="matrix(-1 0 0 1 26 29)" fill="#F6F8FB"/>
+<circle opacity="0.4" r="5" transform="matrix(-1 0 0 1 14 29)" fill="#F6F8FB"/>
+<circle opacity="0.2" r="5" transform="matrix(-1 0 0 1 11 18)" fill="#F6F8FB"/>
+</svg>

@@ -1,0 +1,28 @@
+{
+  "" : {
+    "diagnostics" : "/Users/rostislavmaslov/workspace/projects/kids/flutter/kids_flutter/kids_app/build/macos/Build/Intermediates.noindex/Pods.build/Debug/file_saver.build/Objects-normal/x86_64/file_saver-master.dia",
+    "emit-module-dependencies" : "/Users/rostislavmaslov/workspace/projects/kids/flutter/kids_flutter/kids_app/build/macos/Build/Intermediates.noindex/Pods.build/Debug/file_saver.build/Objects-normal/x86_64/file_saver-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/rostislavmaslov/workspace/projects/kids/flutter/kids_flutter/kids_app/build/macos/Build/Intermediates.noindex/Pods.build/Debug/file_saver.build/Objects-normal/x86_64/file_saver-master-emit-module.dia",
+    "swift-dependencies" : "/Users/rostislavmaslov/workspace/projects/kids/flutter/kids_flutter/kids_app/build/macos/Build/Intermediates.noindex/Pods.build/Debug/file_saver.build/Objects-normal/x86_64/file_saver-master.swiftdeps"
+  },
+  "/Users/rostislavmaslov/.pub-cache/hosted/pub.dev/file_saver-0.2.14/macos/Classes/Dialog.swift" : {
+    "const-values" : "/Users/rostislavmaslov/workspace/projects/kids/flutter/kids_flutter/kids_app/build/macos/Build/Intermediates.noindex/Pods.build/Debug/file_saver.build/Objects-normal/x86_64/Dialog.swiftconstvalues",
+    "dependencies" : "/Users/rostislavmaslov/workspace/projects/kids/flutter/kids_flutter/kids_app/build/macos/Build/Intermediates.noindex/Pods.build/Debug/file_saver.build/Objects-normal/x86_64/Dialog.d",
+    "diagnostics" : "/Users/rostislavmaslov/workspace/projects/kids/flutter/kids_flutter/kids_app/build/macos/Build/Intermediates.noindex/Pods.build/Debug/file_saver.build/Objects-normal/x86_64/Dialog.dia",
+    "index-unit-output-path" : "/Pods.build/Debug/file_saver.build/Objects-normal/x86_64/Dialog.o",
+    "llvm-bc" : "/Users/rostislavmaslov/workspace/projects/kids/flutter/kids_flutter/kids_app/build/macos/Build/Intermediates.noindex/Pods.build/Debug/file_saver.build/Objects-normal/x86_64/Dialog.bc",
+    "object" : "/Users/rostislavmaslov/workspace/projects/kids/flutter/kids_flutter/kids_app/build/macos/Build/Intermediates.noindex/Pods.build/Debug/file_saver.build/Objects-normal/x86_64/Dialog.o",
+    "swift-dependencies" : "/Users/rostislavmaslov/workspace/projects/kids/flutter/kids_flutter/kids_app/build/macos/Build/Intermediates.noindex/Pods.build/Debug/file_saver.build/Objects-normal/x86_64/Dialog.swiftdeps",
+    "swiftmodule" : "/Users/rostislavmaslov/workspace/projects/kids/flutter/kids_flutter/kids_app/build/macos/Build/Intermediates.noindex/Pods.build/Debug/file_saver.build/Objects-normal/x86_64/Dialog~partial.swiftmodule"
+  },
+  "/Users/rostislavmaslov/.pub-cache/hosted/pub.dev/file_saver-0.2.14/macos/Classes/FileSaverPlugin.swift" : {
+    "const-values" : "/Users/rostislavmaslov/workspace/projects/kids/flutter/kids_flutter/kids_app/build/macos/Build/Intermediates.noindex/Pods.build/Debug/file_saver.build/Objects-normal/x86_64/FileSaverPlugin.swiftconstvalues",
+    "dependencies" : "/Users/rostislavmaslov/workspace/projects/kids/flutter/kids_flutter/kids_app/build/macos/Build/Intermediates.noindex/Pods.build/Debug/file_saver.build/Objects-normal/x86_64/FileSaverPlugin.d",
+    "diagnostics" : "/Users/rostislavmaslov/workspace/projects/kids/flutter/kids_flutter/kids_app/build/macos/Build/Intermediates.noindex/Pods.build/Debug/file_saver.build/Objects-normal/x86_64/FileSaverPlugin.dia",
+    "index-unit-output-path" : "/Pods.build/Debug/file_saver.build/Objects-normal/x86_64/FileSaverPlugin.o",
+    "llvm-bc" : "/Users/rostislavmaslov/workspace/projects/kids/flutter/kids_flutter/kids_app/build/macos/Build/Intermediates.noindex/Pods.build/Debug/file_saver.build/Objects-normal/x86_64/FileSaverPlugin.bc",
+    "object" : "/Users/rostislavmaslov/workspace/projects/kids/flutter/kids_flutter/kids_app/build/macos/Build/Intermediates.noindex/Pods.build/Debug/file_saver.build/Objects-normal/x86_64/FileSaverPlugin.o",
+    "swift-dependencies" : "/Users/rostislavmaslov/workspace/projects/kids/flutter/kids_flutter/kids_app/build/macos/Build/Intermediates.noindex/Pods.build/Debug/file_saver.build/Objects-normal/x86_64/FileSaverPlugin.swiftdeps",
+    "swiftmodule" : "/Users/rostislavmaslov/workspace/projects/kids/flutter/kids_flutter/kids_app/build/macos/Build/Intermediates.noindex/Pods.build/Debug/file_saver.build/Objects-normal/x86_64/FileSaverPlugin~partial.swiftmodule"
+  }
+}

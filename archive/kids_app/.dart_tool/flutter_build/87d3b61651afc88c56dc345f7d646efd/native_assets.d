@@ -1,0 +1,1 @@
+ /Users/rostislavmaslov/workspace/projects/kids/flutter/kids_flutter/kids_app/.dart_tool/flutter_build/87d3b61651afc88c56dc345f7d646efd/native_assets.yaml: 
