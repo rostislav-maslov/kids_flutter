@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
+import 'package:kids_app/commons/route_url.dart';
 
 class LoadWidget extends StatefulWidget {
   const LoadWidget({super.key});
@@ -16,27 +17,32 @@ class _LoadWidgetState extends State<LoadWidget> {
   void initState() {
     super.initState();
 
-    // WidgetsBinding.instance.addPostFrameCallback((_) async {
-    //   AuthState authState = Provider.of<AuthState>(context, listen: false);
-    //   _url = GoRouterState.of(context).uri.path;
-
-    //   if (authState.currentHost == null) {
-    //     startAuthorization();
-    //   } else {
-    //     var hostAvailable =
-    //         await authState.refreshToken(authState.currentHost!);
-    //     if (hostAvailable) {
-    //       if (context.mounted) {
-    //         _onGoPage(
-    //           context,
-    //           false,
-    //         );
-    //       }
-    //     } else {
-    //       startAuthorization();
-    //     }
-    //   }
-    // });
+    WidgetsBinding.instance.addPostFrameCallback((_) async {
+      Future.delayed(Duration(seconds: 1), () {
+        if (mounted) {
+          context.go(RouteUrl.instance.auth.absolute);
+        }
+      });
+      // AuthState authState = Provider.of<AuthState>(context, listen: false);
+      // _url = GoRouterState.of(context).uri.path;
+      //
+      // if (authState.currentHost == null) {
+      //   startAuthorization();
+      // } else {
+      //   var hostAvailable =
+      //       await authState.refreshToken(authState.currentHost!);
+      //   if (hostAvailable) {
+      //     if (context.mounted) {
+      //       _onGoPage(
+      //         context,
+      //         false,
+      //       );
+      //     }
+      //   } else {
+      //     startAuthorization();
+      //   }
+      // }
+    });
   }
 
   Future<void> startAuthorization() async {
@@ -95,19 +101,8 @@ class _LoadWidgetState extends State<LoadWidget> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        body: Column(
-      mainAxisAlignment: MainAxisAlignment.center,
-      crossAxisAlignment: CrossAxisAlignment.center,
-      children: [
-        Center(child: CircularProgressIndicator()),
-        Center(
-          child: TextButton(
-              onPressed: () {
-                context.go('/onboarding');
-              },
-              child: Text("from load Go to page")),
-        )
-      ],
+        body: SafeArea(
+      child: Center(child: CircularProgressIndicator()),
     ));
   }
 }

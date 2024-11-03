@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:kids_app/kids_app_router.dart';
-import 'package:kids_app/theme.dart';
-import 'package:kids_app/theme_provider.dart';
+import 'package:kids_app/ui/theme/theme.dart';
+import 'package:kids_app/ui/theme/theme_provider.dart';
 import 'package:provider/provider.dart';
 
 class KidsApp extends StatelessWidget {

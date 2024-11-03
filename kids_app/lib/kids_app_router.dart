@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:kids_app/default_error_page.dart';
+import 'package:kids_app/pages/default_error_page/default_error_page.dart';
 import 'package:kids_app/pages/auth_page/auth_page_widget.dart';
 import 'package:kids_app/pages/home_page/home_page_widget.dart';
 import 'package:kids_app/pages/load_page/load_widget.dart';
@@ -9,7 +9,7 @@ import 'package:kids_app/pages/onboarding_page/onboarding_page_widget.dart';
 import 'package:kids_app/pages/profile_edit_page/profile_edit_page_widget.dart';
 import 'package:kids_app/pages/profile_page/profile_page_widget.dart';
 import 'package:kids_app/pages/rewards_page/rewards_page_widget.dart';
-import 'package:kids_app/route_url.dart';
+import 'package:kids_app/commons/route_url.dart';
 
 class KidsAppRouter {
   static late KidsAppRouter instance;
