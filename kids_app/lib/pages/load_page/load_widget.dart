@@ -18,7 +18,7 @@ class _LoadWidgetState extends State<LoadWidget> {
     super.initState();
 
     WidgetsBinding.instance.addPostFrameCallback((_) async {
-      Future.delayed(Duration(seconds: 1), () {
+      Future.delayed(Duration(milliseconds: 250), () {
         if (mounted) {
           context.go(RouteUrl.instance.auth.absolute);
         }
@@ -101,6 +101,7 @@ class _LoadWidgetState extends State<LoadWidget> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(title: Text('Загрузка'),),
         body: SafeArea(
       child: Center(child: CircularProgressIndicator()),
     ));

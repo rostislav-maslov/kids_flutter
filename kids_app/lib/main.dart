@@ -26,7 +26,7 @@ void main() {
 
   // Запускаем приложение
   runApp(ChangeNotifierProvider<FTThemeProvider>(
-    create: (context) => FTThemeProvider(defaultColor: FTTheme.mainColor),
+    create: (context) => FTThemeProvider( defaultColor: FTTheme.mainColor),
     child: KidsApp(),
   ));
 }
